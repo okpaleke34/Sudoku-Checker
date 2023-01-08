@@ -6,13 +6,15 @@ bool Sudoku::checkSudoku(const std::vector<std::vector<int>>puzzle, int size)
     // Check rows
     for (int row = 0; row < size; row++)
     {
-        /*std::vector<int> puzzle_ = puzzle[i];
+        /*
+        std::vector<int> puzzle_ = puzzle[i];
         sort(puzzle_.begin(), puzzle_.end());
         vector<int>::iterator it = std::unique(puzzle_.begin(), puzzle_.end());
         bool wasUnique = (it == puzzle_.end());
         if (!wasUnique) {
             return false;
-        }*/
+        }
+        */
 
         std::vector<bool> used(size + 1);
         for (int col = 0; col < size; col++)

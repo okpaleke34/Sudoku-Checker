@@ -46,7 +46,7 @@ struct Switches Utils::permuation(int argc, char** argv)
 			<< "\n-Each cell will be seperated by a space"
 			<< "\nExample of a 4x4 solution file is a .txt file that contains this \n\n1 4 3 2\n3 2 1 4\n4 1 2 3\n2 3 4 1\n"
 			<< "\nPut this in a file and save it as solution.txt then pass the path + filename as the solution path"
-			<< "\nThen on the command type \n./main -p ./solution.txt -s 4\n"
+			<< "\nThen on the command type \n>sudoku -p ./solution.txt -s 4\n"
 			<< "\nIt is important to note that if the size of the sudoku is not provided it will take it as a 9x9 sudoku.\n\n";
 	}
 
